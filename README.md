@@ -31,7 +31,7 @@ Now visit: (['http://localhost:8080/'])
 No problem! Just run:
 
 docker build -t flask-app:dev .
-docker run -d -p 5000:5000 --name flask flask-app:dev
+docker run -d -p 8000:8000 --name flask flask-app:dev
 ⚙️ Jenkins Pipeline in Action
 Your Jenkinsfile automates the full workflow:
 
@@ -46,7 +46,7 @@ Runs a simple health check on No more manual deployments! 🚀
 You can push to:
 
 Docker Hub (docker.io/)
-GitHub Container Registry (ghcr.io/rohanengineeringpathx)
+GitHub Container Registry (ghcr.io/Khushi176-sharma/)
 🧠 Health Check Route
 Use this route to confirm the app is running:
 
